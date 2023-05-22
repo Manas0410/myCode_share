@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MANAS-CODE</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/codemirror@5.62.0/lib/codemirror.css"
+    />
+  </head>
+  <body>
+    <header>
+      <span style="font-size: 42px; font-weight: bold">CODE SHARE</span>
+      <span>BY MANAS</span>
+    </header>
+    <main class="content">
+      <textarea id="codeInput"></textarea>
+    </main>
+    <button
+      id="shareButton"
+      style="
+        color: white;
+        background-color: rgb(60, 115, 177);
+        border-radius: 8px;
+        padding: 5px;
+      "
+    >
+      Generate Link
+    </button>
+    <div id="shareLink"></div>
+  </body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/codemirror@5.62.0/lib/codemirror.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/codemirror@5.62.0/mode/javascript/javascript.js"></script>
+<script src="./main.js"></script>
